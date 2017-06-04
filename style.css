@@ -160,5 +160,55 @@ h1 {
   25% { transform: translateY(-30px); }
 }
 
+/*.loader {
+  width: 300px;
+  height: 0px;
+  border-top: 8px dotted #eee;
+  background: none;
+  display: inline-block;
+  position: relative;
+}
+
+.loader:before, .loader:after {
+  content: "";
+  display: block;
+  height: 0px;
+  width: 0px;
+  border: 30px solid pink;
+  border-radius: 50%;
+  border-right-color: transparent; 
+  border-bottom-color: transparent;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  animation: topchomp 1s ease-out infinite reverse, movechomp 3s linear;
+}
+
+.loader:after {
+  border-color: pink;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  animation: bottomchomp 1s ease-out infinite, movechomp 3s linear;
+}
+
+@keyframes bottomchomp {
+  0%, 100% { transform: rotate(10deg); }
+  50% { transform: rotate(-50deg); }
+}
+
+@keyframes topchomp {
+  0%, 100% { transform: rotate(-20deg); }
+  50% { transform: rotate(37deg); }
+}
+
+@keyframes movechomp {
+  0% {    left: 0%;  }
+  100% {    left: 100%;  }
+  0%, 49% { transform: rotate(0deg); }
+  50%, 100% { transform: rotate(180deg); }
+}*/
+
+
+
 
 
